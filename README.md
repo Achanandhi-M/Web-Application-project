@@ -1,6 +1,7 @@
 # Web Application CI/CD Automation with Jenkins, Git, and Docker
 
-![CI/CD Pipeline]()
+![CI/CD Pipeline]![Screenshot (140)](https://github.com/Achanandhi-M/Web-Application-project/assets/110651321/f283f467-835b-4f23-b056-20089939aa37)
+()
 
 This project demonstrates how to automate the deployment pipeline of a web application using Jenkins, Git, and Docker. The final Docker image is uploaded to an Amazon EC2 instance for deployment.
 
