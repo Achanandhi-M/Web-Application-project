@@ -18,8 +18,8 @@ pipeline {
         script {
           withCredentials([usernamePassword(credentialsId: 'dockerhub-password', usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASSWORD')]) {
             sh 'sudo docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD'
-            sh 'sudo docker tag myapp:latest achanandhi/quoteswebapp:myquotes'
-            sh 'sudo docker push achanandhi/quoteswebapp:myquotes'
+            sh 'sudo docker tag myapp:latest achanandhi/quoteswebapp:myquotesv1'
+            sh 'sudo docker push achanandhi/quoteswebapp:myquotesv1'
           }
         }
       }
